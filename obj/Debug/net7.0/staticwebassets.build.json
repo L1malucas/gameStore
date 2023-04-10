@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nO7mDT9NlUxcqNQqePkUrxLBql+Onc/BZcLkbPXuioc=",
+  "Hash": "Vn5MDsqcTzu35kpAcLi/PIemXQ0b3YwplW64TNJts2I=",
   "Source": "gameStore",
   "BasePath": "/",
   "Mode": "Root",
@@ -7155,23 +7155,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "gameStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\sample-data\\weather.json"
     }
   ]
 }
