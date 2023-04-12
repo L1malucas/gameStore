@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2KwbjOaBkyr6fJLMg0uu6Pto90M6yByJMd2Pq3slEXaIJND3ZqNsNBZPdLsBm0s2+JSeJ2/xxXctVAP4ZbN+dw==",
+  "dgSpecHash": "Gb99Ca8Xs9w+BfTpLFzVgzNzF4Fg3nDj4HaL/9+tZaqAWJwoipkxmzkREh5X0EYO4jSrGpT02oWnGInXFlB/iw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\gameStore.csproj",
   "expectedPackageFiles": [
@@ -31,7 +31,7 @@
     "C:\\Users\\ljesus\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
     "C:\\Users\\ljesus\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\ljesus\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
-    "C:\\Users\\ljesus\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.4\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.4.nupkg.sha512"
+    "C:\\Users\\ljesus\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.5\\microsoft.netcore.app.runtime.mono.browser-wasm.7.0.5.nupkg.sha512"
   ],
   "logs": []
 }
