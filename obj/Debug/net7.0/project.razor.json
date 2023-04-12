@@ -189,6 +189,43 @@
         }
       },
       {
+        "HashCode": 132124014,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.EditGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditGame"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.EditGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "EditGame"
+        }
+      },
+      {
+        "HashCode": -2098154047,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.EditGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "gameStore.Pages.EditGame"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.EditGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "EditGame",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 962340982,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
@@ -15758,6 +15795,11 @@
     {
       "FilePath": "c:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\Pages\\EditGame.razor",
+      "TargetPath": "Pages\\EditGame.razor",
       "FileKind": "component"
     },
     {
