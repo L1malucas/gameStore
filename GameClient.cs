@@ -25,11 +25,13 @@ public class GameClient
             Genre = "Role Playng",
             Price = 69.97M,
             ReleaseDate = new DateTime(1991,2,1)
-        }
-            };
+        },
+
+};
 
     public static Game[] GetGames()
     {
+        Console.WriteLine($"Number of games in the list: {games.Count}");
         return games.ToArray();
     }
 
