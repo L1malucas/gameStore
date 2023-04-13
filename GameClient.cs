@@ -20,7 +20,7 @@ public class GameClient
             ReleaseDate = new DateTime(1991,2,1)
         },
         new Game(){
-            Id = 1,
+            Id = 3,
             Name = "Final Fantasy",
             Genre = "Role Playng",
             Price = 69.97M,
