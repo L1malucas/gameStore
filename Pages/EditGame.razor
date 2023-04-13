@@ -1,11 +1,18 @@
 ﻿@page "/game"
+@page "/game/{id:int}"
 @using Models
 @inject NavigationManager NavigationManager
 
-<PageTitle> New Game</PageTitle>
+<PageTitle> @title</PageTitle>
 <h1>Game Catalog</h1>
-<h3>EditGame</h3>
+<h3>@title</h3>
 
+@if (game is null)
+{
+    <p><em>Loading...</em></p>
+}
+ else
+  {
 <div class="row">
     <div class="col-sm-4">
         <EditForm Model="@game" OnValidSubmit="HandleSubmit">
@@ -40,20 +47,64 @@
         
     </div>
 </div>
+  }
+
 
 @code {
-    private Game game = new(){
-        Name = String.Empty,
-        Genre = string.Empty,
-        ReleaseDate = DateTime.UtcNow
-    };
 
-    private void HandleSubmit(){
-        GameClient.AddGame(game);
+    [Parameter]
+    public int? Id {get; set;}
+
+    private Game? game;
+
+    private string title = string.Empty;
+
+        protected override void OnParametersSet()
+        {
+            if(Id is not null){
+                Game foundGame = GameClient.GetGame(Id.Value);
+                game = new()
+                {
+                    Id = foundGame.Id,
+                    Name = foundGame.Name,
+                    Genre = foundGame.Genre,
+                    Price = foundGame.Price,
+                    ReleaseDate = foundGame.ReleaseDate
+                };
+                title = $"Edit {game.Name}";
+            }
+            else
+            {
+                game = new()
+                {
+                Name = String.Empty,
+                Genre = string.Empty,
+                ReleaseDate = DateTime.UtcNow
+                };
+                title = "New Game";
+            }
+        }
+
+    
+
+    private void HandleSubmit()
+    {
+        if (game!.Id == 0)
+        {
+            GameClient.AddGame(game);
+        }
+        else 
+        {
+            GameClient.UpdateGame(game);
+        }
+
         NavigationManager.NavigateTo("/");
     }
 
-    private void Cancel(){
+    private void Cancel()
+    {
         NavigationManager.NavigateTo("/");
     }
 }
+
+
