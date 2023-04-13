@@ -248,6 +248,43 @@
         }
       },
       {
+        "HashCode": -578076481,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.DeleteGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteGame"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.DeleteGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "DeleteGame"
+        }
+      },
+      {
+        "HashCode": -1209822855,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.DeleteGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "gameStore.Pages.DeleteGame"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.DeleteGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "DeleteGame",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 714358323,
         "Kind": "Components.Component",
         "Name": "Microsoft.AspNetCore.Components.CascadingValue<TValue>",
@@ -15827,6 +15864,11 @@
     {
       "FilePath": "c:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\Pages\\Index.razor",
       "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\ljesus\\Desktop\\IRT\\C#\\gameStore\\Pages\\DeleteGame.razor",
+      "TargetPath": "Pages\\DeleteGame.razor",
       "FileKind": "component"
     }
   ],
