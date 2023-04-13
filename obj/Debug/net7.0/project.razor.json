@@ -211,6 +211,85 @@
         }
       },
       {
+        "HashCode": 1255138540,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.DeleteGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "DeleteGame"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Game",
+            "TypeName": "gameStore.Models.Game",
+            "Metadata": {
+              "Common.PropertyName": "Game",
+              "Common.GloballyQualifiedTypeName": "global::gameStore.Models.Game"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClose",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnClose",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.DeleteGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "DeleteGame"
+        }
+      },
+      {
+        "HashCode": -1556575989,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.DeleteGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "gameStore.Pages.DeleteGame"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Game",
+            "TypeName": "gameStore.Models.Game",
+            "Metadata": {
+              "Common.PropertyName": "Game",
+              "Common.GloballyQualifiedTypeName": "global::gameStore.Models.Game"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnClose",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<System.Boolean>",
+            "Metadata": {
+              "Common.PropertyName": "OnClose",
+              "Common.GloballyQualifiedTypeName": "global::Microsoft.AspNetCore.Components.EventCallback<global::System.Boolean>",
+              "Components.EventCallback": "True"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.DeleteGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "DeleteGame",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -597552076,
         "Kind": "Components.Component",
         "Name": "gameStore.Pages.Index",
@@ -244,43 +323,6 @@
           "Common.TypeName": "gameStore.Pages.Index",
           "Common.TypeNamespace": "gameStore.Pages",
           "Common.TypeNameIdentifier": "Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -578076481,
-        "Kind": "Components.Component",
-        "Name": "gameStore.Pages.DeleteGame",
-        "AssemblyName": "gameStore",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "DeleteGame"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "gameStore.Pages.DeleteGame",
-          "Common.TypeNamespace": "gameStore.Pages",
-          "Common.TypeNameIdentifier": "DeleteGame"
-        }
-      },
-      {
-        "HashCode": -1209822855,
-        "Kind": "Components.Component",
-        "Name": "gameStore.Pages.DeleteGame",
-        "AssemblyName": "gameStore",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "gameStore.Pages.DeleteGame"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "gameStore.Pages.DeleteGame",
-          "Common.TypeNamespace": "gameStore.Pages",
-          "Common.TypeNameIdentifier": "DeleteGame",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
