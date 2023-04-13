@@ -152,43 +152,6 @@
         }
       },
       {
-        "HashCode": -720851776,
-        "Kind": "Components.Component",
-        "Name": "gameStore.Pages.EditGame",
-        "AssemblyName": "gameStore",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "EditGame"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "gameStore.Pages.EditGame",
-          "Common.TypeNamespace": "gameStore.Pages",
-          "Common.TypeNameIdentifier": "EditGame"
-        }
-      },
-      {
-        "HashCode": 587755577,
-        "Kind": "Components.Component",
-        "Name": "gameStore.Pages.EditGame",
-        "AssemblyName": "gameStore",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "gameStore.Pages.EditGame"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "gameStore.Pages.EditGame",
-          "Common.TypeNamespace": "gameStore.Pages",
-          "Common.TypeNameIdentifier": "EditGame",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -597552076,
         "Kind": "Components.Component",
         "Name": "gameStore.Pages.Index",
@@ -222,6 +185,43 @@
           "Common.TypeName": "gameStore.Pages.Index",
           "Common.TypeNamespace": "gameStore.Pages",
           "Common.TypeNameIdentifier": "Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -720851776,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.EditGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditGame"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.EditGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "EditGame"
+        }
+      },
+      {
+        "HashCode": 587755577,
+        "Kind": "Components.Component",
+        "Name": "gameStore.Pages.EditGame",
+        "AssemblyName": "gameStore",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "gameStore.Pages.EditGame"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "gameStore.Pages.EditGame",
+          "Common.TypeNamespace": "gameStore.Pages",
+          "Common.TypeNameIdentifier": "EditGame",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
